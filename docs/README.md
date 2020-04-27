@@ -6,7 +6,7 @@
 ![Tổng số người dùng](./assets/tongSoNguoiDung.JPG)
 
 #### 2. Người dùng mới
-- Người dùng mới là người mới nhắn tin, bình luận tới fanpage
+- Người dùng mới là người dùng tương tác lần đầu với fanpage
 - Tổng số người dùng mới trong thời gian thống kê
 - Mặc định ban đầu là tổng số người dùng mới của tất cả các fanpage trong project 
    
