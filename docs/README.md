@@ -38,21 +38,22 @@
 ![Biểu đồ số người dùng mới](./assets/BieuDoSoNguoiDungMoi.JPG)
 
 #### 7. Biểu đồ tổng số tin nhắn
-- Liệt kê số tin nhắn mỗi ngày trong thời gian thống kê
+- Liệt kê số tin nhắn mỗi ngày của **khách hàng**, **fanpage**, **nhân viên** trong thời gian thống kê
 - Mặc định ban đầu là tổng số tin nhắn của tất cả các fanpage trong project
-- Số liệu được tính tổng từ bảng **Thống kê chi tiết theo giờ**, cột **Số tin nhắn** 
+- Tổng các số liệu bằng với tổng số liệu trong cột **Số tin nhắn**, bảng **Thống kê chi tiết theo giờ** 
    
 ![Biểu đồ tổng số tin nhắn](./assets/BieuDoTongSoTinNhan.JPG)
 
 #### 8. Biểu đồ tổng số bình luận
-- Liệt kê số bình luận mỗi ngày trong thời gian thống kê
+- Liệt kê số bình luận mỗi ngày của **khách hàng**, **fanpage**, **nhân viên** trong thời gian thống kê
 - Mặc định ban đầu là tổng số bình luận của tất cả các fanpage trong project
-- Số liệu được tính tổng từ bảng **Thống kê chi tiết theo giờ**, cột **Số bình luận**  
+- Tổng các số liệu bằng với tổng số liệu trong cột **Số bình luận**, bảng **Thống kê chi tiết theo giờ**  
    
 ![Biểu đồ tổng số bình luận](./assets/BieuDoTongSoBinhLuan.JPG )
 
 #### 9. Biểu đồ số tin nhắn theo khung giờ
 - Liệt kê số tin nhắn theo các khoảng thời gian trong ngày
+- Biểu đồ bao gôm 3 đường: **Tin nhắn từ khách hàng**, **Tin nhắn từ fanpage**, **Tin nhắn từ nhân viên**
 - Biểu đồ được chia thành 5 khoảng thời gian:
     * 2h - 5h
     * 6h - 9h
@@ -66,6 +67,7 @@
 
 #### 10. Biểu đồ số bình luận theo khung giờ
 - Liệt kê số bình luận theo các khoảng thời gian trong ngày
+- Biểu đồ bao gôm 3 đường: **Bình luận từ khách hàng**, **Bình luận từ fanpage**, **Bình luận từ nhân viên**
 - Biểu đồ được chia thành 5 khoảng thời gian:
     * 2h - 5h
     * 6h - 9h
@@ -133,13 +135,13 @@
 
 #### 19. Bảng số tin nhắn theo nhân viên, thời gian phản hồi trung bình
 - Biểu diễn số tin nhắn theo từng nhân viên (chỉ tính khi nhắn tin phản hồi khách hàng qua Boxchat của Bizfly)
-- Nếu không có nhân viên nào đã từng nhắn tin, hiển thị *Chưa có dữ liệu nhắn tin cua nhân viên*
+- Nếu không có nhân viên nào đã từng nhắn tin, hiển thị *Chưa có dữ liệu nhắn tin của nhân viên*
    
 ![Số tin nhắn theo nhân viên](./assets/BieuDoSoTNTheoNhanVien.JPG )
 
 #### 20. Bảng số bình luận theo nhân viên, thời gian phản hồi trung bình
 - Biểu diễn số bình luận theo từng nhân viên (chỉ tính khi bình luận phản hồi khách hàng qua Boxchat của Bizfly)
-- Nếu không có nhân viên nào đã từng bình luận, hiển thị *Chưa có dữ liệu bình luận cua nhân viên*
+- Nếu không có nhân viên nào đã từng bình luận, hiển thị *Chưa có dữ liệu bình luận của nhân viên*
    
 ![Số bình luận theo nhân viên](./assets/BieuDoSoBLTheoNhanVien.JPG )
 
